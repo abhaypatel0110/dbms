@@ -4,6 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <!-- Bootstrap CSS -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -15,6 +16,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
         <link href="https://css.gg/arrow-right-r.css" rel="stylesheet" />
         <title>Hello, world!</title>
     </head>
@@ -35,16 +37,16 @@
                             <a href="doctor.php" class="nav-link rw-font">DOCTOR</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a href="#" class="nav-link rw-font">PATIENT</a>
+                            <a href="patient.php" class="nav-link rw-font">PATIENT</a>
                         </li>
                         <li class="nav-item me-3">
-                            <a href="#" class="nav-link rw-font">APPOINTMENTS</a>
+                            <a href="appointments.php" class="nav-link rw-font">APPOINTMENTS</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link rw-font">SESSION LOGS</a>
+                            <a href="sessions.php" class="nav-link rw-font">SESSION LOGS</a>
                         </li>
                     </ul>
-                    <button type="submit" class="btn btn-primary rw-font ms-auto">LOGOUT</button>
+                    <button type="submit" class="btn btn-primary rw-font ms-auto"><a href="login.php" style="color: white; text-decoration: none;">LOGOUT</a></button>
                 </div>
             </div>
         </nav>
@@ -92,6 +94,7 @@
                 </div>
             </div>
         </div>
+
         <div class="container mb-5">
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-2">
@@ -103,7 +106,7 @@
                             <p class="card-text">
                                 Click on the link below to go to access the Doctors records. It consists of details of all doctors from the Database.
                             </p>
-                            <a href="#" class="card-link">Take me there</a>
+                            <a href="doctor.php" style="text-decoration: none; color: white;" class="card-link">Take me there <i class="bi bi-chevron-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -116,7 +119,7 @@
                             <p class="card-text">
                                 Click on the link below to go to access the Patient records. It consists of details of all patients from the Database.
                             </p>
-                            <a href="#" class="card-link">Take me there</a>
+                            <a href="patient.php" style="text-decoration: none; color: white;" class="card-link">Take me there <i class="bi bi-chevron-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -130,7 +133,7 @@
                                 Click on the link below to go to access the Appointment records. It consists of details of all appointments registered
                                 in the Database.
                             </p>
-                            <a href="#" class="card-link">Take me there</a>
+                            <a href="appointments.php" style="text-decoration: none; color: white;" class="card-link">Take me there <i class="bi bi-chevron-double-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -144,12 +147,13 @@
                                 Click on the link below to go to access the Session Logs. It consists of details of all session details that have been
                                 registered in the database.
                             </p>
-                            <a href="#" class="card-link">Take me there</a></a>
+                            <a href="sessions.php" style="text-decoration: none; color: white;" class="card-link">Take me there <i class="bi bi-chevron-double-right"></i></a></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
         <footer>
             <div class="container">
                 <center>
